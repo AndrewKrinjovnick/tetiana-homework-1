@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background: rgb(250, 226, 239);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn {
+  border: 1px solid #885df1;
+  border-radius: 30px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  color: white;
+  font-size: 20px;
+  background: #885df1;
+  padding: 25px 40px;
+  cursor: pointer;
+  min-width: 160px;
+}
